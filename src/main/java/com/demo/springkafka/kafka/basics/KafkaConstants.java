@@ -1,4 +1,4 @@
-package com.demo.springkafka.kafka;
+package com.demo.springkafka.kafka.basics;
 
 public class KafkaConstants {
     public static final String TOPIC_NAME = "test-topic";

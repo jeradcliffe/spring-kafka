@@ -19,10 +19,15 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
     implementation 'org.apache.kafka:kafka-streams'
     implementation 'org.springframework.kafka:spring-kafka'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.apache.kafka:connect:3.9.0'
+    implementation 'org.apache.kafka:connect-api:3.9.0'
+
     testImplementation 'org.springframework.kafka:spring-kafka-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

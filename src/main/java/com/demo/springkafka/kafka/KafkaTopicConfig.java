@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
-import static com.demo.springkafka.kafka.KafkaConstants.TOPIC_NAME;
+import static com.demo.springkafka.kafka.basics.KafkaConstants.TOPIC_NAME;
 
 @Configuration
 public class KafkaTopicConfig {
